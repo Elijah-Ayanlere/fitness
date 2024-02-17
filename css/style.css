@@ -1,0 +1,146 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Resetting default styles and setting box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for navigation links in the navbar */
+.navbar-nav a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #dbdbdb;
+    left: 200px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+/* Adding margin to the left for navbar links */
+.left {
+    margin-left: 500px !important;
+}
+
+/* Styling for hovered navigation links */
+.navbar-nav a:hover {
+    color: #FF2F30;
+}
+
+/* Styling for buttons */
+.btn {
+    width: 15%;
+}
+
+/* Styling for the active link in the navbar */
+#active {
+    color: #FF2F30;
+}
+
+/* Adding border-radius to buttons */
+.button {
+    border-radius: 15px !important;
+}
+
+/* Styling for the footer section */
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Styling for footer layers */
+.footer-layer {
+    padding: 20px 0;
+}
+
+/* Styling for the main container */
+.bord {
+    background-color: #0000007a !important;
+    height: 620px;
+}
+
+/* Adding height to an element with class "rak" */
+.rak {
+    height: 150px !important;
+}
+
+/* Hover effect for the submit button */
+.submit:hover {
+    background-color: #000 !important;
+    transition: .5s !important;
+}
+
+/* Hover effect for links in the "fin" class */
+.fin a:hover {
+    color: #FF2F30 !important;
+    cursor: pointer;
+}
+
+/* Styling for social media icons */
+.social-media a {
+    width: 1rem;
+    height: 1rem;
+    background: transparent;
+    border: 0.2rem solid #FF2F30;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #FF2F30;
+    margin: 4rem 1rem 3rem 0;
+    transition: .5s ease;
+}
+
+/* Hover effect for social media icons */
+.social-media a:hover {
+    background-color: #FF2F30;
+    color: #ffffff;
+}
+
+/* Styling for testimonial section */
+.testimonial {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adding border-radius to an element with class "raw" */
+.raw {
+    border-radius: 50%;
+}
+
+/* Styling for dropdown menu */
+.dropdown-menu {
+    border: 6px solid red;
+    background-color: rgba(108, 108, 108, 0.342)!important;
+}
+
+/* Media query for responsive design at max-width 1200px */
+@media (max-width: 1200px) {
+    /* Styling for navbar links in responsive mode */
+    .navbar-nav a {
+        background-color: rgba(108, 108, 108, 0.342);
+        font-size: 20px;
+        color: #ffff;
+        text-align: center;
+    }
+
+    /* Adjusting the margin and width for buttons in responsive mode */
+    .left {
+        margin-left: 0px !important;
+    }
+
+    .button {
+        border-radius: 15px !important;
+        width: 20%;
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .start{
+        width: 50% !important;
+        font-size: larger; 
+        font-weight: 600;
+    }
+}

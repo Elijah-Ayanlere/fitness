@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for Character Set and Responsive Design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the Website -->
+    <title>TJR Fitness</title>
+
+    <!-- External Stylesheets and Fonts -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="images/tjr-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Section with Bootstrap Navbar -->
+    <div class="wrapper "
+        style="background-image: url(images/contact\ us.webp); height: 620px;  background-size: cover;  background-color: rgba(0, 0, 0, 0.373); ">
+        <div class="bord">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a href="index.html"><img src="images/tjr-removebg-preview.png" style="width: 8rem;"></a>
+
+                    <!-- Navbar Toggler Button for Small Screens -->
+                    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar Links and Dropdown Menu -->
+                    <div class="collapse navbar-collapse  left" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <!-- Navigation Links -->
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="schedule.html">Schedules</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" id="active">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Classes</a>
+                                <!-- Dropdown Menu for Classes -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="classes.html">1st Class</a></li>
+                                    <li><a class="dropdown-item" href="2nd_class.html">2nd Class</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <br> <br>
+
+            <!-- Heading for Contact Section -->
+            <h1 class="container text-center text-white  mt-5">
+                <i><b>CONTACT <span class="text-danger">US</span></b></i>
+                <br>
+            </h1>
+        </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div class="text-center mt-5">
+        <h6>
+            <b>FOLLOW US</b>
+        </h6>
+        <br>
+        <div class="social-media">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <!-- Name Input -->
+                    <div class="mb-3 animate__animated animate__fadeInLeft animate__delay-2s">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <!-- Email Input -->
+                    <div class="mb-3 animate__animated animate__fadeInRight animate__delay-2s">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <!-- Message Input -->
+                    <div class="mb-3 animate__animated animate__fadeInBottomRight animate__delay-3s">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <button type="submit"
+                        class="btn btn-danger animate__animated animate__fadeInUp animate__delay-4s submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer mt-5">
+        <div class="container ">
+            <div class="row">
+                <!-- Logo and Social Media Links -->
+                <div class="col-md-4">
+                    <div class="footer-layer mb-5">
+                        <a href="index.html"><img src="images/tjr-removebg-preview.png" style="width: 8rem;"></a>
+                        <div class="social-media" style="left: 150px;">
+                            <a href="#"><i class="bx bxl-facebook"></i></a>
+                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                            <a href="#"><i class="bx bxl-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Explore Links -->
+                <div class="col-md-4 mt-3">
+                    <div class="footer-layer mt-4  ">
+                        <h5 class="ms-4"> Explore</h5>
+                        <ul class="fin ml-5">
+
+                            <a href="about.html" class="text-decoration-none text-light">About Us</a>
+
+                            <br>
+
+
+                            <a href="classes.html" class="text-decoration-none text-light">Classes</a>
+                            <br>
+
+                            <a href="schedule.html" class="text-decoration-none text-light">Schedules</a>
+
+                            <br>
+                            <a href="contact.html" class="text-decoration-none text-light">Contact</a>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col-md-4 mt-5">
+                    <div class="footer-layer">
+                        <h5>Our Contacts </h5>
+                        <i class="fa fa-map-marker ">
+                            <span> Bristol Road, Selly Oak, Birmingham, UK</span>
+                        </i>
+                        <br>
+                        <i class="fa fa-phone"> </i>
+                        <a href="tel:+44934536581" class="text-decoration-none text-light">+44 9345 36 581</a>
+                        <br>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:info@yourdomain.com" class="text-decoration-none text-light">
+                            info@yourdomain.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Copyright Information -->
+        <div class="text-center mt-3  ">
+            Copyright &copy;2024 by TJR Fitness | All Rights Reserved
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
